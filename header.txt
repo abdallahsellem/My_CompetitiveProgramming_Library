@@ -1,0 +1,32 @@
+/*********************/
+//Hard work beats talent when talent doesn’t work hard
+// 1% talent but 99% belive and hard work 	
+/*********************/
+#include <iostream>
+using namespace std;
+#include<bits/stdc++.h>
+#define ll long long
+#define int long long 
+#define wh while (t--)
+#define pb push_back
+#define  popcount __builtin_popcountll
+#define beg begin() 
+#define endi end() 
+#define f first  
+#define sec second 
+#define endl '\n'
+#define iso ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+//freopen ("text_file.txt", "w", stdout);
+ll gcd(ll x, ll y) {
+    return (y == 0 ? x : gcd(y, x % y));
+}
+
+ll lcm(ll x, ll y) {
+    return (x / gcd(x, y)) * y;
+}
+
+int32_t main()
+{
+
+    return 0;
+}
